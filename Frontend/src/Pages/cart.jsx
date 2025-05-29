@@ -31,7 +31,7 @@ const Cart=()=>{
                         <td>{sr}</td>
                         <td ><img src={key.image} alt="not found" height={80} /></td>
                         <td>{key.name}</td>
-                        <td>${key.price}</td>
+                        <td>${key.price*key.qty}</td>
                         <td><FaMinus className="PoniterBtn"  onClick={()=>{dispatch(decrement({id:key.id}))}}/>  {key.qty}  <FaPlus className="PoniterBtn" onClick={()=>{dispatch(increment({id:key.id}))}} /></td>
                         <td><MdDelete className="PoniterBtn" onClick={()=>{dispatch(remove({id:key.id}))}}/></td>
                     </tr>)
