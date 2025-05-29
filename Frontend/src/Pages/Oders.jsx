@@ -49,7 +49,7 @@ function OrderDetailes() {
   return (
     <>
     
-        <h1 style={{backgroundColor:"lightpink", padding:"20px", textAlign:"center", textTransform:"uppercase"}}>Orders details</h1>
+        <h1 style={{backgroundColor:"#F5F5F5", padding:"20px", textAlign:"center", textTransform:"uppercase"}}>Orders details</h1>
           
         <Table striped bordered hover>
           <thead>
