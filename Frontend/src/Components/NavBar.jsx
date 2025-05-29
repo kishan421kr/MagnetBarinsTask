@@ -15,7 +15,7 @@ const NavBar=()=>{
                     <Link className="NavLink" to={"home"}>Home</Link>
                     <Link className="NavLink" to={"product"}>Products</Link>
                     <Link className="NavLink">About</Link>
-                    <Link className="NavLink">Contact Us</Link>
+                    <Link className="NavLink" to={"order"}>Orders</Link>
                 </div>
                 <div id="NavCartDiv">
                     <div>Admin</div>
