@@ -44,8 +44,8 @@ app.post("/checkout",async(req,res)=>{
       payment_method_types: ["card"],
       line_items,
       mode: "payment",
-      success_url: "http://localhost:9000/success",
-      cancel_url: "http://localhost:9000/cancel",
+      success_url: "http://localhost:5173/success",
+      cancel_url: "http://localhost:5173/cancel",
     });
 
     const totalAmount = Product.reduce((acc, item) => acc + item.price * item.qty, 0);
